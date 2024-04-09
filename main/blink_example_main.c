@@ -5,13 +5,21 @@
    Unless required by applicable law or agreed to in writing, this
    software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
    CONDITIONS OF ANY KIND, either express or implied.
+
+   @section 	Pin Configuration
+   	   Using GPIO12 (#14) for blink demonstration @ 0.5 Hz
 */
 
 //--------------------------------- Includes ---------------------------------//
 
+//Standard Library Includes
 #include <stdio.h>
+
+//FreeRTOS Includes
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+
+//SDK Includes
 #include "driver/gpio.h"
 #include "esp_log.h"
 #include "led_strip.h"

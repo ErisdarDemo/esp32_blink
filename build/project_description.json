@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "blink",
-    "project_version":    "d932c3c-dirty",
+    "project_version":    "850c44f-dirty",
     "project_path":       "C:/Users/jreina/Documents/MyWorkspaces/Espressif/blink",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.1.2",
     "build_dir":          "C:/Users/jreina/Documents/MyWorkspaces/Espressif/blink/build",
